@@ -5,6 +5,12 @@ const router = createRouter({
  routes: [
   {
     path:'/',
+  },
+  {
+    path:'/:categoria',
+    name:'productos',
+    component:()=> import('@/views/productosview.vue'),
+    props:true
   }
 ]
 })
