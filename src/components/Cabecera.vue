@@ -31,7 +31,8 @@ header {
   color: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: 10px 20px;
+  align-items: center;
+  padding: 10px 20px;
   font-weight: 500;
   text-shadow: 1px 1px 3px #202020;
 }
@@ -45,20 +46,20 @@ img {
 .menu{
   width: calc(100% /2);
 
+  ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
 
 }
 
-ul{
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 2rem;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
 .autor{
  background-color: rgb(31, 31,31);
  color: white;

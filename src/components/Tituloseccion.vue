@@ -1,13 +1,13 @@
 <script setup>
-defineprops({
-    titulo: string
+defineProps({
+    titulo: String
 })
 </script>
 
 <template> 
-<h1>
-{{ titulo}}
-</h1>   
+    <h1>
+    {{ titulo}}
+    </h1>   
 </template>
 
 <style scoped>
@@ -25,12 +25,4 @@ h1{
         color: #f68712;
     }
 }
-
-
-
-       
-       
-
-
-
 </style>
