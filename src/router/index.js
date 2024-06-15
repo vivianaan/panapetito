@@ -12,6 +12,11 @@ const router = createRouter({
     name:'productos',
     component: () => import('@/views/productosview.vue'),
     props:true
+  },
+  {
+    path: '/autor',
+    name: 'autor',
+    component:() => import('@/views/Autorview.vue')
   }
 ]
 })
